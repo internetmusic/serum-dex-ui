@@ -196,7 +196,7 @@ export default function TopBar() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Supported wallets
+                  Supported CCIM wallets
                 </a>
               </Menu.Item>
               <Menu.Item key="/dex-list">

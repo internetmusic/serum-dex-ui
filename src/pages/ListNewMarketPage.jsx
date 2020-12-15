@@ -27,7 +27,7 @@ export default function ListNewMarketPage() {
     <Text>
       Base Token Mint Address{' '}
       <Text type="secondary">
-        (e.g. BTC solana address:{' '}
+        (e.g. BTC CopyrightShares address:{' '}
         {
           <Text type="secondary" code>
             9n4nbM75f5Ui33ZbPYXn59EwSgE8CGsHtAeTH5YFeJ9E
