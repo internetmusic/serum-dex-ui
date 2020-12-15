@@ -159,7 +159,7 @@ export default function TopBar() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                SWAP
+                CCIM SWAP
               </a>
             </Menu.Item>
           )}
