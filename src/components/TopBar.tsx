@@ -187,7 +187,7 @@ export default function TopBar() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Adding a market
+                  Adding a CCIM market
                 </a>
               </Menu.Item>
               <Menu.Item key="/wallet-support">
