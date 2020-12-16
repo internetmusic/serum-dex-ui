@@ -6,7 +6,7 @@ import { useLocalStorageState } from './utils';
 import { WalletContextValues } from './types';
 
 export const WALLET_PROVIDERS = [
-  { name: 'ccim.io', url: 'https://www.ccim.io' },
+  { name: 'nimwallet.com', url: 'https://www.nimwallet.com' },
 ];
 
 const WalletContext = React.createContext<null | WalletContextValues>(null);
@@ -16,11 +16,11 @@ export function WalletProvider({ children }) {
 
   const [savedProviderUrl, setProviderUrl] = useLocalStorageState(
     'walletProvider',
-    'https://www.ccim.io',
+    'https://www.nimwallet.com',
   );
   let providerUrl;
   if (!savedProviderUrl) {
-    providerUrl = 'https://www.ccim.io';
+    providerUrl = 'https://www.nimwallet.com';
   } else {
     providerUrl = savedProviderUrl;
   }

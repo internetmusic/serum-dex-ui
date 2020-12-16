@@ -67,8 +67,8 @@ export function useMintInput(
           title={
             <>
               {tooltip} You can look up token mint addresses on{' '}
-              <Link external to="https://ccim.io">
-                ccim.io
+              <Link external to="https://nimwallet.com">
+                nimwallet.com
               </Link>
               .
             </>
