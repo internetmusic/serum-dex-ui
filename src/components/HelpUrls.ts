@@ -6,6 +6,6 @@ export const helpUrls = {
   telegram: 'https://t.me/ProjectSerum',
   github: 'https://github.com/project-serum',
   projectSerum: 'https://projectserum.com/',
-  developerResources: 'https://projectserum.com/developer-resources',
+  developerResources: 'https://newinternet.media',
   solanaBeach: 'https://solanabeach.io',
 };
