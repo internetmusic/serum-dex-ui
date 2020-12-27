@@ -16,11 +16,11 @@ export function WalletProvider({ children }) {
 
   const [savedProviderUrl, setProviderUrl] = useLocalStorageState(
     'walletProvider',
-    'https://www.nimwallet.com',
+    'https://nimwallet.com',
   );
   let providerUrl;
   if (!savedProviderUrl) {
-    providerUrl = 'https://www.nimwallet.com';
+    providerUrl = 'https://nimwallet.com';
   } else {
     providerUrl = savedProviderUrl;
   }
