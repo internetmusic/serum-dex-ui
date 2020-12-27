@@ -6,7 +6,7 @@ import { useLocalStorageState } from './utils';
 import { WalletContextValues } from './types';
 
 export const WALLET_PROVIDERS = [
-  { name: 'nimwallet.com', url: 'https://www.nimwallet.com' },
+  { name: 'nimwallet.com', url: 'https://nimwallet.com' },
 ];
 
 const WalletContext = React.createContext<null | WalletContextValues>(null);
