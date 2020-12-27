@@ -7,7 +7,7 @@ const { useBreakpoint } = Grid;
 
 const footerElements = [
   {
-    description: 'Serum Developer Resources',
+    description: 'Serum Resources',
     link: helpUrls.developerResources,
   },
   { description: 'Discord', link: helpUrls.discord },
