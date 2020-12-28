@@ -137,7 +137,7 @@ export default function TopBar() {
       <Wrapper>
         <LogoWrapper onClick={() => history.push('/')} >
           <img src={logo} alt=""/>
-          {'NIM'}
+          {'New Internet Media'}
         </LogoWrapper>
         <Menu
           mode="horizontal"
