@@ -18,7 +18,7 @@ export default function Settings({ autoApprove }) {
       Auto settle
       {!autoApprove && (
         <Paragraph style={{ color: 'rgba(255,255,255,0.5)', marginTop: 10 }}>
-          To use auto settle, first enable auto approval in your NIMwallet
+          To use auto settle, first enable auto approval in your NIM wallet
         </Paragraph>
       )}
     </div>
